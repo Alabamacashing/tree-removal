@@ -1226,7 +1226,24 @@ p {
   }
 
   .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     min-height: 760px;
+  }
+
+  .banner-top {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .hero-inner {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 48px;
+    padding-bottom: 84px;
   }
 }
 
